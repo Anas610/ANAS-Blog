@@ -8,11 +8,6 @@ import { Container } from "@chakra-ui/react";
 import { Alert, AlertIcon, AlertTitle, AlertDescription } from '@chakra-ui/react'
 
 
-
-export const metadata = {
-    title: "post form"
-};
-
 let schema = Yup.object().shape({
     title: Yup.string().max(100, "should be less than 100 characters").required('please provide title'),
     author: Yup.string().required('please provide author'),

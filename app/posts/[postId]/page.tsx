@@ -6,10 +6,6 @@ import { Avatar } from '@chakra-ui/react'
 import Loader from "@/app/Components/loader/page";
 
 
-export const metadata = {
-    title: "post details"
-};
-
 interface UserDetails {
     id: number;
     name: string;

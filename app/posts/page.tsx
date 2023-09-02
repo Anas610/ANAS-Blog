@@ -8,11 +8,6 @@ import Loader from "../Components/loader/page";
 
 
 
-export const metadata = {
-    title: "post details"
-};
-
-
 interface UserDetails {
     id: number;
     name: string;
